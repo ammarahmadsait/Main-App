@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>MrWhite</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/brave_BXofHicFRA-removebg-preview.ico">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="nav-wrapper">
+        <div class="logo-wrapper"><a href="#">Mr White</a></div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+            <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+            <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#pricing" onclick="toggleMenu()">Pricing</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+        <button class="secondary-btn btn">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> Get Extention
+        </button>
+      </div>
+    </nav>
+    <div class="mobile-menu">
+      <button class="menu-toggle" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+    <section class="hero">
+        <div class="hero-container">
+          <video autoplay muted loop id="background-video" playbackRate="0.5">
+            <source
+              src="./assets/Images/1g8IkhtJmlWcC4zEYWKUmeGWzI.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <div class="logo-box">
+            <img
+              src="./assets/images/Designer (2).jpeg"
+              alt="Logo"
+              class="logo"
+            />
+          </div>
+          <div class="hero-wrapper">
+            <div class="hero-text">
+              <p class="main-text">Next Gen Powerful Ai chat bot</p>
+              <div class="container">
+                <svg viewBox="0 0 960 300">
+                  <symbol id="s-text">
+                    <text text-anchor="middle" x="50%" y="80%">Mr White</text>
+                  </symbol>
+  
+                  <g class="g-ants">
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="cta">
+            <button class="btn">
+              <i class="fa-solid fa-wand-magic-sparkles"></i> Get Started
+            </button>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </section>
+      <section class="note" id="about">
+        <div class="note-wrapper">
+          <div class="note-element element">
+            <i class="bx bxs-star bx-flashing"></i>INTRODUCING
+            <span class="highlight"> MR WHITE</span>
+          </div>
+          <blockquote class="note-text">
+            "MrWhite is a cybersecurity chatbot.
+            <span class="highlight">We protect your data</span> and ensure your
+            online safety. <span class="highlight">Stay secure</span> with our
+            advanced AI technology."
+          </blockquote>
+          <div class="note-author">
+            <img
+              src="./assets/Images/c0749b7cc401421662ae901ec8f9f660.jpg"
+              alt="Author"
+            />
+            <p class="author-name">The Stellar Six</p>
+          </div>
+        </div>
+      </section>
+  
+      <section class="features" id="project">
+        <div class="features-wrapper">
+          <div class="feature-header">
+            <div class="feature-element element">
+              <i class="bx bxs-cube bx-tada bx-rotate-270"></i>
+              <span class="highlight"> Features</span>
+            </div>
+            <h2 class="feature-title">
+              All in One Security <span class="highlight">Extention</span>
+            </h2>
+            <p class="featuresub-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
+              natus error incidunt.
+            </p>
+          </div>
+          <div class="feature-wrrapper">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class='bx bx-search-alt-2'></i>              </div>
+              <h3 class="feature-name">Deep Scan</h3>
+              <p class="feature-text">
+                Scans websites thoroughly and predicts potential security threats using advanced AI analysis and threat detection algorithms.
+              </p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bx bx-shield"></i>
+              </div>
+              <h3 class="feature-name">Real-Time Detection</h3>
+              <p class="feature-text">
+                Provides real-time monitoring and detection of web-based threats, including malicious scripts and suspicious activities as they occur.
+              </p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class='bx bx-brain' ></i>
+              </div>
+              <h3 class="feature-name">Security</h3>
+              <p class="feature-text">
+                Educates users about online security practices and provides guidance on identifying and avoiding potential security threats.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="features why-choose" id="services">
+        <div class="features-wrapper">
+          <div class="feature-header">
+            <div class="feature-element element">
+              <i class="bx bxs-cube bx-tada bx-rotate-270"></i>
+              <span class="highlight">Why Choose Us</span>
+            </div>
+            <h2 class="feature-title">
+              Your Security <span class="highlight">Our Priority</span>
+            </h2>
+            <p class="featuresub-text">
+              Experience unparalleled protection with our comprehensive security
+              solutions.
+            </p>
+          </div>
+          <div class="feature-wrrapper">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bx bx-check-shield"></i>
+              </div>
+              <h3 class="feature-name">24/7 Protection</h3>
+              <p class="feature-text">
+                Round-the-clock monitoring and protection for your complete peace
+                of mind.
+              </p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bx bx-lock-alt"></i>
+              </div>
+              <h3 class="feature-name">Advanced Encryption</h3>
+              <p class="feature-text">
+                State-of-the-art encryption protocols to keep your data secure.
+              </p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bx bx-support"></i>
+              </div>
+              <h3 class="feature-name">Expert Support</h3>
+              <p class="feature-text">
+                Dedicated team of security experts available whenever you need
+                assistance.
+              </p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bx bx-refresh"></i>
+              </div>
+              <h3 class="feature-name">Auto Updates</h3>
+              <p class="feature-text">
+                Continuous updates to protect against the latest security threats.
+              </p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bx bx-shield-quarter"></i>
+              </div>
+              <h3 class="feature-name">Threat Prevention</h3>
+              <p class="feature-text">
+                Proactive measures to prevent security breaches before they occur.
+              </p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bx bx-certification"></i>
+              </div>
+              <h3 class="feature-name">Certified Security</h3>
+              <p class="feature-text">
+                Internationally recognized security certifications and compliance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="team" id="contact">
+        <div class="feature-header team-header">
+          <div class="feature-element element">
+            <i class="bx bxs-cube bx-tada bx-rotate-270"></i>
+            <span class="highlight">Meet Our Team</span>
+          </div>
+          <h2 class="feature-title">
+            Our Team <span class="highlight">Of Experts</span>
+          </h2>
+          <p class="featuresub-text">
+            Our capstone project is developed by a dedicated team of students
+            under the guidance of our instructor, Shawn Simlik.
+          </p>
+        </div>
+  
+        <div class="about-body">
+          <div class="card-slider swiper">
+            <div class="slider-wrapper">
+              <div class="card-list swiper-wrapper">
+                <div class="card-item swiper-slide">
+                  <img
+                    src="./assets/Images/profile1.jpeg"
+                    alt="Developer"
+                    class="card-image"
+                  />
+                  <div class="card-details">
+                    <h3 class="card-title">Goodwill Olatunji</h3>
+                    <p class="card-description">
+                        Lead developer and visionary behind the website and AI, driving innovation and ensuring a seamless user experience. He also introduced and integrated the possible technologies for the MrWhite project.
+                    </p>
+                    <button class="btn"><a href="https://www.linkedin.com/in/oyinkolade-olatunji/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bn05U%2BU30S82l6Qh0zjkNfA%3D%3D">Connect</a></button>
+                  </div>
+                </div>
+                <div class="card-item swiper-slide">
+                  <img
+                    src="./assets/Images/profile2.jpeg"
+                    alt="Developer"
+                    class="card-image"
+                  />
+                  <div class="card-details">
+                    <h3 class="card-title">Martin Sy</h3>
+                    <p class="card-description">
+                        One of our extension developer, focused on building secure and user-friendly browser extensions. Martin Sy played a key role in developing MrWhite's extension for smooth and reliable performance.
+                    </p>
+                    <button class="btn"><a href="https://www.linkedin.com/in/matin-sy/">Connect</a></button>
+                  </div>
+                </div>
+                <div class="card-item swiper-slide">
+                  <img
+                    src="./assets/Images/profile3.jpeg"
+                    alt="Developer"
+                    class="card-image"
+                  />
+                  <div class="card-details">
+                    <h3 class="card-title">Emmanuel Igboanusi</h3>
+                    <p class="card-description">
+                        Our server-side engineer, ensuring efficient and secure connections between the server and the website for optimal performance and reliability, empowering MrWhite's seamless functionality.
+                    </p>
+                    <button class="btn"><a href="https://www.linkedin.com/in/emmanuel-igboanusi-318658287/">Connect</a></button>
+                  </div>
+                </div>
+                <div class="card-item swiper-slide">
+                  <img
+                    src="./assets/Images/profile4.jpg"
+                    alt="Developer"
+                    class="card-image"
+                  />
+                  <div class="card-details">
+                    <h3 class="card-title">
+                      Ammar Ahmad</h3>
+                    <p class="card-description">
+                        A skilled extension developer, specializes in optimizing browser extensions for peak performance and usability. He implementing advanced features and ensuring seamless integration for MrWhite's extension.
+                    </p>
+                    <button class="btn"><a href="https://www.linkedin.com/in/ammar-ahmad-12a9b6288/">Connect</a></button>
+                  </div>
+                </div>
+                <div class="card-item swiper-slide">
+                  <img
+                    src="./assets/Images/profile5.jpg"
+                    alt="Developer"
+                    class="card-image"
+                  />
+                  <div class="card-details">
+                    <h3 class="card-title">Dylan Le</h3>
+                    <p class="card-description">
+                        Our AI specialist, who fine-tuned the LLM to ensure optimal performance and accuracy. His interest in machine learning and AI development has been instrumental in enhancing MrWhite's capabilities.
+                    </p>
+                    <button class="btn"><a href="https://www.linkedin.com/in/dylan-le-409249220/"></a>Connect</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="swiper-pagination"></div>
+            <div class="slider-button swiper-button-prev"></div>
+            <div class="slider-button swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+  
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <h2>MrWhite</h2>
+            </div>
+            <div class="footer-links">
+              <a href="#">Features</a>
+              <a href="#">About</a>
+              <a href="#">Pricing</a>
+              <a href="#">Contact</a>
+              <a href="#">Learn</a>
+            </div>
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2025 MrWhite. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Chat Box -->
+
+    <div class="chat-window">
+      <div class="chat-window-header">
+        <span>Chat with MrWhite</span>
+        <div class="chat-window-controls">
+          <button
+            id="clear-chat"
+            class="chat-window-btn chat-window-btn--clear"
+            title="Clear chat"
+          >
+            <i class="fas fa-trash"></i>
+          </button>
+          <button id="minimize-chat" class="chat-window-btn">
+            <i class="fa-solid fa-minus"></i>
+          </button>
+          <button id="maximize-chat" class="chat-window-btn">
+            <i class="fa-solid fa-expand"></i>
+          </button>
+          <button id="close-chat" class="chat-window-btn">
+            <i class="fa-solid fa-times"></i>
+          </button>
+        </div>
+      </div>
+      <div class="chat-window-messages" id="messages">
+        <!-- Messages will be added here -->
+      </div>
+      <div class="chat-window-input-area">
+        <textarea
+          id="user-input"
+          class="chat-window-input"
+          placeholder="What Can i help you with? "
+          rows="2"
+        ></textarea>
+        <button id="send-button" class="chat-window-btn-send btn">Send</button>
+      </div>
+    </div>
+    <button class="chat-toggle" id="chat-toggle" onclick="toggleChat()">
+      <i class="fa-solid fa-comments"></i> Chat
+    </button>
+    <!-- Add these before closing body tag -->
+    <script src="http://localhost:5000/socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
